@@ -19,11 +19,22 @@
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     background-color: #fff;
-    background-image: 
-      linear-gradient(90deg, rgba(211, 211, 211, 0.4) 1px, transparent 1px),
-      linear-gradient(180deg, rgba(211, 211, 211, 0.4) 1px, transparent 1px);
-    background-size: 40px 40px;
-  }
+    position: relative; /* Needed for the pseudo-element to position correctly */
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./assets/images/lig1.gif');
+    background-repeat: repeat;
+    background-size: auto; /* Adjust this as necessary */
+    opacity: 0.03; /* 10% transparency */
+    z-index: -1; /* Ensure it stays behind the content */
+}
   
   /* Main content wrapper */
   .content-wrapper {
@@ -116,10 +127,6 @@
   .faq-section {
     padding: 60px 0;
     background-color: #f9f9f9;
-    background-image: 
-      linear-gradient(90deg, rgba(211, 211, 211, 0.2) 1px, transparent 1px),
-      linear-gradient(180deg, rgba(211, 211, 211, 0.2) 1px, transparent 1px);
-    background-size: 40px 40px;
   }
   
   .faq-section h2 {
