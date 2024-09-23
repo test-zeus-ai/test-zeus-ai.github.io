@@ -48,7 +48,7 @@
     margin-top: 20px;
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     overflow: hidden;
     display: inline-block;
     transition: border 0.3s ease;
@@ -59,7 +59,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 50%;
+    /* border-radius: 50%; */
   }
   
   .image-holder:hover {
@@ -188,7 +188,7 @@
 
 /* Footer Styles */
 .footer {
-  background-color: #727272;
+  background-color: #53BDF5;
   padding: 20px 0;
 }
 
