@@ -196,11 +196,11 @@ body::before {
 /* Footer Styles */
 .footer {
   background-color: #53BDF5;
-  padding: 20px 0;
+  padding: 5px 0;
 }
 
 .footer-image {
-  width: 100px;
+  width: 80px;
   height: auto;
 }
 
@@ -249,7 +249,7 @@ body::before {
 .centered-heading {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: white;
 }
 
